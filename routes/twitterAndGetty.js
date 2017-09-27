@@ -12,7 +12,7 @@ const options = {
     path: '/v3/search/images?fields=comp',
     method: 'GET', 
     headers: {
-        'Api-Key': process.env.GETTY_API_KEY || 'a2nx44jnc2tatmpvdk4b2zgg'
+        'Api-Key': '3yjw3mkgkuhb9et7nshgqn6v'
     }
 }; 
 
@@ -53,8 +53,8 @@ function makeGettyApiRequest(sendBackResponseToBrowser) {
 
 
 var keys = {
-    client: process.env.TWITTER_CLIENT_ID , 
-    secret: process.env.TWITTER_SECRET_KEY
+    client: 'DX5z3KqMHJB66Hq0xtnc9HlGM' , 
+    secret: 'LLHKi3bjh3ZqPfY4xEkv5OclyWFnFnAvSz5IjF1MAR7VHWOJE6'
 }
 
 
